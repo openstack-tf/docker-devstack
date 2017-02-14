@@ -1,4 +1,4 @@
-docker build -t devstack:v1 .
+docker build -t 192.168.1.105:5000/carapax/devstack:v1 .
 
 docker push 192.168.1.105:5000/carapax/devstack:v1
 
